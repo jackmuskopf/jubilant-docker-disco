@@ -1,0 +1,17 @@
+bs4
+numpy
+psycopg2-binary
+sqlalchemy
+pandas
+python-dotenv
+twilio
+mongoengine
+selenium
+google-api-python-client
+oauth2client
+ics
+textblob
+selenium
+lxml
+sklearn
+pytz
