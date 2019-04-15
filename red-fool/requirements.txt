@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+sklearn
+spacy
+gensim
+boto3
+psycopg2-binary
+sqlalchemy
+lxml
+pytz
+bs4

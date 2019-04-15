@@ -13,3 +13,12 @@ RUN apt-get install -y wget
 # update pip
 RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install wheel
+
+RUN pip3 install virtualenv
+RUN pip3 install awscli --upgrade
+
+RUN apt-get update && \
+	apt-get install -y zip && \
+	apt-get install -y unzip
+
+CMD ["bash"]
